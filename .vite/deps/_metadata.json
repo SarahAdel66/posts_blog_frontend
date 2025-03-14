@@ -1,0 +1,64 @@
+{
+  "hash": "70b1ae3d",
+  "configHash": "88665cb1",
+  "lockfileHash": "b76971b3",
+  "browserHash": "585199af",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "24732dae",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "54f1ea10",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d251a45f",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "954eddd5",
+      "needsInterop": false
+    },
+    "react-hook-form": {
+      "src": "../../node_modules/react-hook-form/dist/index.esm.mjs",
+      "file": "react-hook-form.js",
+      "fileHash": "5604421a",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "6096e59c",
+      "needsInterop": false
+    },
+    "react-icons/fa": {
+      "src": "../../node_modules/react-icons/fa/index.mjs",
+      "file": "react-icons_fa.js",
+      "fileHash": "5dc8782e",
+      "needsInterop": false
+    },
+    "moment": {
+      "src": "../../node_modules/moment/dist/moment.js",
+      "file": "moment.js",
+      "fileHash": "68e7d6fd",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-52VOLQIH": {
+      "file": "chunk-52VOLQIH.js"
+    },
+    "chunk-2TUXWMP5": {
+      "file": "chunk-2TUXWMP5.js"
+    }
+  }
+}
