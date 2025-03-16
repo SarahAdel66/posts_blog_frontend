@@ -51,7 +51,6 @@ const Navbar = () => {
               )}
             </ul>
 
-            {/* الزرار واليوزر في الآخر */}
             <ul className="navbar-nav">
               {authContext?.user ? (
                 <>

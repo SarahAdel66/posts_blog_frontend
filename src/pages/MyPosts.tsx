@@ -17,7 +17,7 @@ const MyPosts = () => {
 
     if (authContext?.user) {
       axios
-        .get(`http://localhost:5000/api/posts/user/${authContext?.user._id}`)
+        .get(`https://postsblogbackend-production.up.railway.app/api/posts/user/${authContext?.user._id}`)
         .then((res) => setPosts(res.data))
         .catch((err) => console.error(err));
     }
@@ -29,7 +29,7 @@ const MyPosts = () => {
     try {
       
       const token = localStorage.getItem("token"); 
-      const response = await fetch(`http://localhost:5000/api/posts/${post._id}`, {
+      const response = await fetch(`https://postsblogbackend-production.up.railway.app/api/posts/${post._id}`, {
         method: "DELETE",
         headers: {
           "Authorization": `Bearer ${token}`,

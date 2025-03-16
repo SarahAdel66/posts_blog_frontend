@@ -9,7 +9,7 @@ const EditPost = () => {
   useEffect(() => {
     const fetchPost = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/posts/${postId}`);
+        const response = await fetch(`https://postsblogbackend-production.up.railway.app/api/posts/${postId}`);
         const data = await response.json();
         setPost({ title: data.title, content: data.content });
       } catch (error) {
@@ -23,7 +23,7 @@ const EditPost = () => {
     e.preventDefault();
     const token = localStorage.getItem("token");
 
-    const response = await fetch(`http://localhost:5000/api/posts/${postId}`, {
+    const response = await fetch(`https://postsblogbackend-production.up.railway.app/api/posts/${postId}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
