@@ -32,7 +32,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const fetchUserFromToken = async (token: string) => {
     
     try {
-      const response = await fetch("http://localhost:5000/api/users/me", {
+      const response = await fetch("https://postsblogbackend-production.up.railway.app/api/users/me", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
