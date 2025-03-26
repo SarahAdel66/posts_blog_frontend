@@ -22,7 +22,7 @@ export const createPost = async (postData: { title: string; content: string }, t
 };
 
 export const addCommentToPost = async (postId: string, text: string) => {
-  const response = await fetch(`http://localhost:5000/api/posts/${postId}/comments`, {
+  const response = await fetch(`https://postsblogbackend-production.up.railway.app/api/posts/${postId}/comments`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

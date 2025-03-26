@@ -27,7 +27,6 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          {/* الروابط */}
           <div className={`collapse navbar-collapse ${isNavCollapsed ? "" : "show"}`} id="navbarNav">
             <ul className="navbar-nav me-auto">
               <li className="nav-item">
